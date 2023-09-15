@@ -1,0 +1,176 @@
+body{    
+    background-color: #303030;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    margin: 10px auto;
+    width: 75%;
+
+}
+
+.primeira-linha{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    max-width: 15%;
+    
+}
+
+#logo{
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+    margin: 0 10px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu{
+    display: flex;
+    margin: 0 10px;
+}
+
+.icon{
+    font-size: 2em;
+    margin-right: 20px;
+    color: red;
+}
+
+.text1{
+    font-weight: 400;
+    margin-bottom: 2px;
+}
+
+.text2{
+    font-weight: 700;
+}
+
+.btn-carrinho{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #009E2A;
+    color: white;
+    border-radius: 5px;
+    margin-left: 20px;
+    border: none;
+}
+
+.icon-cart{
+    font-size: 2.5em;
+    margin-right: 20px;
+}
+
+.btn-carrinho:hover{
+    background-color: #008523;
+    transition: 1.2s;
+    cursor: pointer;
+}
+
+.text-cart{
+    font-size: 1.3em;
+    font-weight: 700;
+    text-align: right;
+}
+
+.text-product{
+    text-align: right;
+}
+
+.segunda-linha{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.depart{
+    display: flex;
+    background-color: red;
+    align-items: center;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+}
+
+.depart:hover{
+    background-color: rgb(201, 0, 0);
+    transition: 1.2s;
+    cursor: pointer;
+}
+
+.menu-sanduiche{
+    font-size: 2em;
+    margin-right: 20px;
+}
+
+.text3{
+    text-align: right;
+}
+
+.text4{
+    font-size: 1.8em;
+    font-weight: 600;
+}
+
+.icon-seta{
+    padding: 20px;
+}
+
+.pesquisa{
+    display: flex;
+    align-items: center;
+    width: 75%;
+    box-sizing: border-box;
+    background-color: #404040;
+    padding: 15px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.pesquisa > input{
+    box-sizing: border-box;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 1.4em;
+    background-color: #ffffff00;
+}
+
+.fa-magnifying-glass{
+    font-size: 1.2em;
+}
+
+.banner{
+    width: 100%;
+}
+
